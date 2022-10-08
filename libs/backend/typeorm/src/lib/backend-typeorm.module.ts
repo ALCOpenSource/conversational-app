@@ -10,6 +10,7 @@ import { join } from 'path';
       entities: [join(__dirname, '**/**.entity{.ts,.js}')],
       synchronize: true,
       useNewUrlParser: true,
+      useUnifiedTopology: true,
       logging: true,
     }),
   ],
