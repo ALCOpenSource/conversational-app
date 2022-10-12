@@ -9,5 +9,14 @@ import { Message } from '@elewa/api-interfaces';
 })
 export class AppComponent {
   hello$ = this.http.get<Message>('/api/hello');
+  changeForm = false;
+
   constructor(private http: HttpClient) {}
+
+
+
+
+  changeFormHandler(){
+    this.changeForm = !this.changeForm;
+  }
 }
