@@ -2,6 +2,8 @@
   "name": "elewa",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
+  "root":"libs/tailwind-preset",
+  "sourceRoot": "libs/tailwind-preset",
   "sourceRoot": "apps/elewa/src",
   "prefix": "elewa",
   "targets": {
